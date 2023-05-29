@@ -1,0 +1,12 @@
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\bin\Debug\net7.0\GymRPG.Library.deps.json
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\bin\Debug\net7.0\GymRPG.Library.dll
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\bin\Debug\net7.0\GymRPG.Library.pdb
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\GymRPG.Library.csproj.AssemblyReference.cache
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\GymRPG.Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\GymRPG.Library.AssemblyInfoInputs.cache
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\GymRPG.Library.AssemblyInfo.cs
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\GymRPG.Library.csproj.CoreCompileInputs.cache
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\GymRPG.Library.dll
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\refint\GymRPG.Library.dll
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\GymRPG.Library.pdb
+C:\Users\manng\Desktop\GymRPG\GymRPG.Library\obj\Debug\net7.0\ref\GymRPG.Library.dll

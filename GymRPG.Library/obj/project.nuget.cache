@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "16xvXlRdswLevl5lEHMt2GrbrcOzF/G4NanZQwgoEpFsKdCMM8pFA6+GcPvveTeDOjTdT1zbD/nLRF0lMoG3Iw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\manng\\Desktop\\GymRPG\\GymRPG.Library\\GymRPG.Library.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\manng\\.nuget\\packages\\sqlitepclraw.core\\2.1.5\\sqlitepclraw.core.2.1.5.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}
