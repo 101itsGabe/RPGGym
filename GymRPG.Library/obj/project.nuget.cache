@@ -1,10 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "16xvXlRdswLevl5lEHMt2GrbrcOzF/G4NanZQwgoEpFsKdCMM8pFA6+GcPvveTeDOjTdT1zbD/nLRF0lMoG3Iw==",
+  "dgSpecHash": "LpshK9zm4Z3B9KBQNJGL3A7J556uhK1kInU0q3M4eY7/G9prNGcA75C1H6l30mafkmAyXfTCWOpsy53TQqyj0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\manng\\Desktop\\GymRPG\\GymRPG.Library\\GymRPG.Library.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\manng\\.nuget\\packages\\communitytoolkit.maui\\5.2.0\\communitytoolkit.maui.5.2.0.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\communitytoolkit.maui.core\\5.2.0\\communitytoolkit.maui.core.5.2.0.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\manng\\.nuget\\packages\\sqlitepclraw.core\\2.1.5\\sqlitepclraw.core.2.1.5.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
+    "C:\\Users\\manng\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
     "C:\\Users\\manng\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []
