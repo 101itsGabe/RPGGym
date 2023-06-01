@@ -4,42 +4,58 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using GymRPG.Library.Models;
+using SQLite;
+using GymRPG.Library.Service;
 
 namespace GymRPG.Library.Service
 {
-    public class WorkoutService
+    public class WorkoutService : IWorkoutService
     {
-        public static WorkoutService _instance;
-        public List<Workout> Workouts { get; private set; }
+        private SQLiteAsyncConnection _dbConn;
 
         public WorkoutService()
         {
-            Workouts = new List<Workout>();
-            Workouts.Add(MakeWorkout("Bicep Curl"));
+            SetUpDb();
         }
 
-        public static WorkoutService Current
+
+
+        private async void SetUpDb()
         {
-            get
+            if (_dbConn == null)
             {
-                if (_instance == null)
-                {
-                    _instance = new WorkoutService();
-                }
-                return _instance;
+                string dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TaskItem.db3");
+                _dbConn = new SQLiteAsyncConnection(dbPath);
+                await _dbConn.CreateTableAsync<Workout>();
             }
         }
 
-        public Workout MakeWorkout(string s)
+        public Task<int> AddWorkout(Workout workout)
         {
-            var curWork = new Workout
-            {
-                WorkoutName = s,
-                WOLevel = 0,
-                curType = WorkoutType.Arms
-            };
-
-            return curWork;
+            return _dbConn.InsertAsync(workout);
         }
+
+        public Task<int> DeleteWorkout(Workout workout)
+        {
+            return _dbConn.DeleteAsync(workout);
+        }
+
+        public Task<List<Workout>> GetWorkoutList() 
+        {
+            return _dbConn.Table<Workout>().ToListAsync();
+        }
+
+        public Task<int> UpdateWorkout(Workout workout) 
+        {
+            return _dbConn.UpdateAsync(workout);
+        }
+        
+        public Task<Workout> GetWorkoutById(int id)
+        {
+            var curWorkout = _dbConn.Table<Workout>().FirstOrDefaultAsync(w => w.Id == id);
+            return curWorkout;
+        }
+
+        
     }
 }
